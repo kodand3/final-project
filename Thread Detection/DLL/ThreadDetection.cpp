@@ -1,5 +1,3 @@
-// Full Antivirus Thread Monitoring with MinHook, Whitelisting, and Shellcode Scanning
-
 #include <Windows.h>
 #include <TlHelp32.h>
 #include <Psapi.h>
