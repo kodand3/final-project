@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Building a **high-recall malware pre-filter** means erring on the side of catching anything suspicious, even at the cost of false positives. Windows malware often leaves tell-tale signs in process behavior, file attributes, command usage, and system modifications. Below is a breakdown of suspicious indicators – from odd process patterns and parent-child relations to network and persistence signs – along with guidance on weighting these signals for a recall-biased scoring system. The aim is to recognize as many potential threats as possible by flagging malware;
+Building a **high-recall malware pre-filter** means erring on the side of catching anything suspicious, even at the cost of false positives. Windows malware often leaves tell-tale signs in process behavior, file attributes, command usage, and system modifications. Below is a breakdown of suspicious indicators – from odd process patterns and parent-child relations to network and persistence signs – along with guidance on weighting these signals for a recall-biased scoring system. The aim is to recognize as many potential threats as possible by flagging malware.
 
 ## Implementation Plan
 
