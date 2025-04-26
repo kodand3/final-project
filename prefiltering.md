@@ -6,6 +6,7 @@ Building a **high-recall malware pre-filter** means erring on the side of catchi
 
 ## Implementation Plan
 
+![project-1](https://github.com/user-attachments/assets/05ed2475-b309-49bc-965e-5ab3d601451d)
 
 
 ---
@@ -380,6 +381,7 @@ void AnalyzerDispatcher::AnalyzeProcess(const ProcessInfo& info) {
     std::wcout << L"[Analyzer] Analyzing Process: " << info.name 
                << L" (PID " << info.pid << L") Path: " << info.path << L"\n";
     // Wokk TODO: Hook into your heavy API call analyzer system
+    // Waiting for model from saurav
 }
 
 ```
@@ -479,4 +481,4 @@ int main() {
 ### Upgrades that can done
 
 - Instead of polling have live monitor
-- Maybe better parent-child relationship tracker ---> Try using the driver made
+- Maybe better parent-child relationship tracker ---> Try using the driver made(refer github processtree part)
