@@ -59,7 +59,7 @@ void PrintTree(DWORD rootPID,
     auto childrenIt = tree.find(rootPID);
     if (childrenIt != tree.end()) {
         std::vector<DWORD> children = childrenIt->second;
-        std::sort(children.begin(), children.end());  // sort for pretty output
+        std::sort(children.begin(), children.end());  
         for (size_t i = 0; i < children.size(); ++i) {
             PrintTree(children[i], tree, info, prefix, i == children.size() - 1);
         }
