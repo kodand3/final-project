@@ -11,7 +11,7 @@ Building a **high-recall malware pre-filter** means erring on the side of catchi
 
 ---
 
-## **Step 1: Collect Process Info
+## Step 1: Collect Process Info
 
 For each **new process** that starts, collect these **small**, **fast** details:
 
